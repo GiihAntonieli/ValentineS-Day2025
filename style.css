@@ -74,8 +74,11 @@ body{
 }
 
 .text > a{
-  text-decoration: none;
-  text-align: right;
+  
+  padding: 50px;
+}
+.text > a :hover{
+  color:rgb(24, 73, 81)
 }
 
 .heart {
