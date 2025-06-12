@@ -18,7 +18,7 @@ body{
   justify-content: center;
 }
 .container {
-  height: 100vh;
+  height: 120vh;
   display: grid;
   place-items: center;
 }
@@ -29,7 +29,7 @@ body{
 .envelope-wrapper > .envelope {
   position: relative;
   width: 500px;
-  height: 430px;
+  height: 330px;
 }
 .envelope-wrapper > .envelope::before {
   content: "";
@@ -73,17 +73,18 @@ body{
   font-size: 9.5px;
 }
 
-.text > a{
-  
-  padding: 50px;
+ a{
+  color: white;
+  margin: auto;
+  padding-top: 0px;
 }
-.text > a :hover{
-  color:rgb(24, 73, 81)
+a :hover{
+  color: red;
 }
 
 .heart {
   position: absolute;
-  top: 50%;
+  top: 48%;
   left: 50%;
   width: 15px;
   height: 15px;
